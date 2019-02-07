@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Picas Y Fijas</title>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <h1 class="text-center">Picas y Fijas</h1>
+        <h5 class="text-center">Ingresa <span>cuatro dígitos diferentes</span> y oprime Enter</h5>
+      </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-md-4 mx-auto">
+        <input class="text-center mx-auto rounded" type="number" id="set-number">
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-lg-4 mx-auto">
+        <table class="table table-bordered" id="numbers_table">
+            <thead>
+              <tr>
+                <th>Número</th>
+                <th>Fijas</th>
+                <th>Picas</th>
+              </tr>
+            </thead>
+          <tbody class="adicion text-center">
+          </tbody>
+          </table>
+      </div>
+    </div>
+    <div id="modal">
+			<div class="div">
+					<h1 class="ganaste">¡Ganaste!</h1>
+					<span id="button">Volver a Jugar</span>
+			</div>
+		</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="sebasapp.js"></script>
+</body>
+</html>
